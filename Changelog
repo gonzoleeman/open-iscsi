@@ -1,3 +1,51 @@
+ > open-iscsi-2.1.11 - open-iscsi-2.1.12 (Jul 2026))
+
+Cav4ever (1):
+      avoid possible double free of found in idbm_rec_update_param (#528)
+
+Gulam Mohamed (1):
+      Modify log function to print session id (#498)
+
+Iliya Peregoudov (1):
+      Add tcp.congestion_control configuration option (#520)
+
+Jesse Taube (2):
+      iscsi-gen-initiatorname use @IQN_PREFIX@ as default
+      iscsi-init.service: Use iscsi-gen-initiatorname
+
+Lee Duncan (5):
+      Fix issue with IPv6 adapter interfaces (#508)
+      Small cleanups for firmware discovery. (#522)
+      Fix unused variable warning in usr/io.c (#524)
+      Make iface.example a doc file. (#526)
+      Fix security issues recently discovered by Keith at Linneman Labs (#535)
+
+Ma Xinjian (2):
+      Makefile: fix "No rule to make target 'iscsiuio/Makefile.in" issue (#506)
+      fwparam_ppc.c: Fix the calloc-transposed-args issue (#504)
+
+Mike Andrews (1):
+      Fix incorrect parsing of node.discovery_type "static" and "fw" (#518)
+
+NitinYewale (1):
+      doc: fixup iscsiadm man page option for -r (#501)
+
+PerA (1):
+      Fix typo in initiator.c (#507)
+
+Praveen Kannoju (1):
+      iscsi: validate interface IP against target address family (#527)
+
+Shminderjit Singh (1):
+      iscsi: delay reconnect until interface has valid IP. (#511)
+
+Tianon Gravi (1):
+      Fix minor typo ("authenticaton") (#500)
+
+wuguanghao3 (1):
+      iscsi_net_util: avoid copying NULL pointers with strlcpy() (#515)
+
+
 -> open-iscsi-2.1.10 - open-iscsi-2.1.11 (Feb 2025)
 
 Gulam Mohamed (1):
